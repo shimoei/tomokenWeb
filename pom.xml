@@ -56,6 +56,20 @@
         </build>
 
     </profile>
+    <profile>
+        <id>heroku</id>
+        <build>
+            <resources>
+                <resource>
+                    <directory>src/env/heroku/</directory>
+                </resource>
+                <resource>
+                    <directory>src/main/resources/</directory>
+                </resource>
+            </resources>
+        </build>
+
+    </profile>
 </profiles>
 
 
